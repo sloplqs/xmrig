@@ -1,4 +1,12 @@
 # XMRig
+apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev && git clone https://github.com/xmrig/xmrig.git
+cd xmrig
+mkdir build
+cd build
+cmake .. -DWITH_EMBEDDED_CONFIG=ON -DUV_LIBRARY=/usr/lib/x86_64-linux-gnu/libuv.a 
+
+
+
 
 [![Github All Releases](https://img.shields.io/github/downloads/xmrig/xmrig/total.svg)](https://github.com/xmrig/xmrig/releases)
 [![GitHub release](https://img.shields.io/github/release/xmrig/xmrig/all.svg)](https://github.com/xmrig/xmrig/releases)
